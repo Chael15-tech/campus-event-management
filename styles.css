@@ -1,0 +1,49 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    header {
+        background: #35424a;
+        color: #ffffff;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    form {
+        margin-bottom: 20px;
+    }
+
+    input[type=text] {
+        padding: 10px;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+    button {
+        padding: 10px 15px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #35424a;
+        color: white;
+        border: none;
+    }
+
+    #qrCodeDisplay {
+        margin-top: 20px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 20px;
+    }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Event Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Campus Event Management System</h1>
+    </header>
+    <main>
+        <h2>Event Registration</h2>
+        <form id="registrationForm">
+            <input type="text" id="studentName" placeholder="Enter your name" required>
+            <button type="submit">Register</button>
+        </form>
+        <div id="qrCodeDisplay" class="hidden">
+            <h3>Your QR Code:</h3>
+            <div id="qrcode"></div>
+        </div>
+        <div id="eventList">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li>Event 1: Programming Workshop on March 15</li>
+                <li>Event 2: Guest Speaker on March 20</li>
+                <li>Event 3: Sports Fest on March 25</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Siargao Island Institute of Technology</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
